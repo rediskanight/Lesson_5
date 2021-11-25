@@ -26,8 +26,8 @@ public class Person {
         persArray[3] = new Person("Цукерман Роза Иосифовна", "главный бухгалтер", "zucerman_ri@company.com", "+7(999)666-00-00", 150000, 45);
         persArray[4] = new Person("Пупкин Василий Иванович", "разработчик", "pupkin_vi@company.com", "+7(926)987-65-43", 150000, 30);
         for (int i = 0; i<5; i++){
-           // System.out.println(persArray[i].fio + " " + persArray[i].position + " " + persArray[i].email + " " + persArray[i].tel + " " + persArray[i].salary + " " + persArray[i].age);
-            if(persArray[i].age > 40)  {System.out.println(persArray[i].fio + " " + persArray[i].position + " " + persArray[i].email + " " + persArray[i].tel + " " + persArray[i].salary + " " + persArray[i].age);}
+           System.out.println(persArray[i].fio + " " + persArray[i].position + " " + persArray[i].email + " " + persArray[i].tel + " " + persArray[i].salary + " " + persArray[i].age);
+           //if(persArray[i].age > 40)  {System.out.println(persArray[i].fio + " " + persArray[i].position + " " + persArray[i].email + " " + persArray[i].tel + " " + persArray[i].salary + " " + persArray[i].age);}
         }
 
 
